@@ -36,6 +36,10 @@ public final class ConventionalEntityTypeTags {
 
 	public static final TagKey<EntityType<?>> MINECARTS = register("minecarts");
 	public static final TagKey<EntityType<?>> BOATS = register("boats");
+
+	/**
+ 	 * Tag containing entity types that extend AnimalEntity
+   	 */
 	public static final TagKey<EntityType<?>> ANIMALS = register("animals");
 
 	/**
